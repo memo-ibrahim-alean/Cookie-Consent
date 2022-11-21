@@ -2,7 +2,8 @@ const modalEl = document.getElementById("modal");
 const closeBtnEl = document.getElementById("modal-close-btn");
 const consentForm = document.getElementById("login-form");
 const modalTextEl = document.getElementById("modal-text");
-
+const declineBtn = document.getElementById("decline-btn");
+const modalChoiceBtns = document.getElementById("modal-choice-btns");
 
 closeBtnEl.disabled = true;
 
@@ -12,6 +13,10 @@ setTimeout(function () {
 
 closeBtnEl.addEventListener("click", function () {
   modalEl.style.display = "none";
+});
+
+declineBtn.addEventListener("mouseenter", function () {
+  modalChoiceBtns.classList.toggle("modal-choice-btns-reverse");
 });
 
 consentForm.addEventListener("submit", function (e) {
@@ -44,6 +49,5 @@ consentForm.addEventListener("submit", function (e) {
     `;
 
     closeBtnEl.disabled = false;
-
   }, 3000);
 });
