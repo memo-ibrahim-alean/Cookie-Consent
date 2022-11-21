@@ -12,7 +12,7 @@
 
 ### The challenge
 
-Build the world's most annoying cookie consent using  HTML, CSS and JS
+Build the world's most annoying cookie consent using HTML, CSS and JS
 
 ### Screenshot
 
@@ -28,7 +28,9 @@ Build the world's most annoying cookie consent using  HTML, CSS and JS
 - Clone Repo or Download Zip
 - That's it! 🎉
 
-### What I learned
+### My process
+
+What I learned
 
 - setTimeout
 - element.style
