@@ -21,4 +21,9 @@ consentForm.addEventListener("submit", function (e) {
       </p>
     </div>
   `;
+
+  setTimeout(function () {
+    const uploadText = document.getElementById("uploadText");
+    uploadText.innerHTML = `Making the sale...`;
+  }, 1500);
 });
