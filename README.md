@@ -6,7 +6,7 @@
   - [Links](#links)
   - [How to install](#how-to-install)
 - [My process](#my-process)
-  - [What I learned](#wWhat-I-have-studied)
+  - [What I learned](#What-I-learned)
 
 ## Overview
 
@@ -28,9 +28,9 @@ Build the world's most annoying cookie consent using HTML, CSS and JS
 - Clone Repo or Download Zip
 - That's it! 🎉
 
-### My process
+## My process
 
-What I learned
+### What I learned
 
 - setTimeout
 - element.style
