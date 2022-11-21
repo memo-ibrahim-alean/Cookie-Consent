@@ -3,6 +3,9 @@ const closeBtnEl = document.getElementById("modal-close-btn");
 const consentForm = document.getElementById("login-form");
 const modalTextEl = document.getElementById("modal-text");
 
+
+closeBtnEl.disabled = true;
+
 setTimeout(function () {
   modalEl.style.display = "inline";
 }, 1500);
@@ -39,5 +42,8 @@ consentForm.addEventListener("submit", function (e) {
         <img src="images/pirate.gif">
     </div>
     `;
+
+    closeBtnEl.disabled = false;
+
   }, 3000);
 });
